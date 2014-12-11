@@ -1,0 +1,12 @@
+# Site settings
+title: GarthDB
+email: garthdb@gmai.com
+description: "Ramblings of Garth Braithwaite."
+baseurl: ""
+url: "http://garthdb.com"
+sass:
+    sass_dir: css
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/

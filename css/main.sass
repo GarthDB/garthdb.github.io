@@ -1,0 +1,120 @@
+---
+---
+@import reset.sass
+@import fonts/opensans/stylesheet.sass
+@import colors.sass
+
+html
+  height: 100%
+a
+  text-decoration: none
+  color: $secondary-accent
+  &:hover
+    color: $tertiary-accent
+h1, h2, h3, h4, h5, h6
+  color: $primary-accent
+h1
+  text-transform: uppercase
+  font-size: 2.5rem
+  color: $primary-accent
+  margin-bottom: 1.25rem
+h2
+  margin: 2rem 0 1rem
+  font-size: 2rem
+h3
+  margin: 2rem 0 1rem
+  font-size: 2rem
+  font-weight: 200
+time
+  color: $subdued
+  font-size: 0.8rem
+body
+  min-height: 100%
+  font-family: 'open_sans'
+  background: $background-color
+  box-sizing: border-box
+  font-size: 1rem
+  color: $content-text
+  display: flex
+  flex-direction: column
+.page-content
+  flex-grow: 2
+.site-header
+  box-sizing: border-box
+  text-align: center
+  padding: 20px
+.site-header, .site-footer
+  padding: 20px
+  color: $background-color
+  background: $primary-accent
+  & a
+    color: $background-color
+    &:hover
+      color: $tertiary-accent
+  & path
+    fill: currentColor
+.site-footer
+  bottom: 0
+  width: 100%
+.social-links
+  text-align: center
+  ul
+    list-style: none
+  li
+    display: inline-block
+    margin: 0 10px
+.videoWrapper
+  position: relative
+  padding-bottom: 56.25%
+  padding-top: 25px
+  height: 0
+  margin: 2rem 0
+  iframe
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+.post
+  p, ul
+    max-width: 550px
+    padding: 0 50px
+  h1, h2, h3, h4, h5, h6
+    padding: 0 35px
+  p, ul
+    margin-bottom: 1rem
+    font-size: 1.1rem
+    line-height: 1.7rem
+    color: $content-text
+  ul
+    list-style: disc inside none
+    padding-left: 4rem
+    margin-bottom: 1rem
+  h1, h2, h3, h4, h5, h6
+    color: $primary-accent
+.post-header
+  padding-top: 35px
+.post-list
+  padding: 40px 50px
+  ul
+    padding-left: 20px
+  li
+    list-style: none
+@media only screen and (min-width: 940px)
+  body
+    padding: 0 0 0 300px
+    display: block
+  .site-header
+    position: fixed
+    width: 300px
+    top: 0
+    left: 0
+    bottom: 0
+    padding: 40px
+  .site-footer
+    background: transparent
+    position: fixed
+    width: 300px
+    left: 0
+    bottom: 0
+    box-sizing: border-box
