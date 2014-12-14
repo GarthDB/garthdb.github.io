@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I'm Garth Braithwaite and I create stuff for the internet.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Here are some useless and gratuitous headshots.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+<div class="image"><img src="https://farm9.staticflickr.com/8665/16016347612_30ec3ca7e8_o_d.jpg" alt=""/><img src="https://farm8.staticflickr.com/7504/15829781790_352f0bf6e3_o_d.jpg" alt=""/><img src="https://farm8.staticflickr.com/7543/15829781310_cc1afc6fa2_o_d.jpg" alt=""/></div>

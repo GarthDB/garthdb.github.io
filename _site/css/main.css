@@ -158,6 +158,29 @@ body {
   width: 100%;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+  .site-footer .post-list {
+    max-width: 400px;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    .site-footer .post-list li a {
+      display: inline-block;
+      width: auto; }
+    .site-footer .post-list time {
+      display: inline-block;
+      margin-top: 2px; }
+    .site-footer .post-list h1 {
+      font-size: 1.2rem;
+      color: #ECF0F1;
+      font-weight: 600;
+      text-transform: none;
+      border-bottom: 1px solid #ECF0F1;
+      padding-bottom: 10px; }
+    .site-footer .post-list ul {
+      margin: 0;
+      padding: 0; }
 
 .social-links {
   text-align: center; }
@@ -177,14 +200,14 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%; }
+    width: 100% !important;
+    height: 100% !important; }
 
 .post p, .post ul {
   max-width: 550px;
-  padding: 0 50px; }
+  padding: 0 30px; }
 .post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
-  padding: 0 35px; }
+  padding: 0 30px; }
 .post p, .post ul {
   margin-bottom: 1rem;
   font-size: 1.1rem;
@@ -196,16 +219,32 @@ body {
   margin-bottom: 1rem; }
 .post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
   color: #2C3E50; }
+.post .header-image {
+  margin-bottom: 20px; }
 
 .post-header {
   padding-top: 35px; }
 
 .post-list {
-  padding: 40px 50px; }
+  padding: 40px 30px; }
   .post-list ul {
-    padding-left: 20px; }
+    padding-left: 0; }
   .post-list li {
-    list-style: none; }
+    list-style: none;
+    margin-bottom: 0.5rem; }
+
+.about-link {
+  text-align: center;
+  padding: 20px 20px 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block; }
+
+.image {
+  line-height: 0; }
+  .image img {
+    width: 100%;
+    height: auto; }
 
 @media only screen and (min-width: 940px) {
   body {
@@ -227,4 +266,16 @@ body {
     left: 0;
     bottom: 0;
     -moz-box-sizing: border-box;
-    box-sizing: border-box; } }
+    box-sizing: border-box; }
+    .site-footer .post-list li a {
+      width: 100%; }
+
+  .post p, .post ul {
+    padding: 0 50px; }
+  .post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
+    padding: 0 35px; }
+
+  .post-list {
+    padding: 40px 50px; }
+    .post-list ul {
+      padding-left: 20px; } }

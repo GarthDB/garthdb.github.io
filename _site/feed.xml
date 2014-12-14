@@ -7,6 +7,123 @@
     <atom:link href="http://garthdb.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Beyond the Desktop</title>
+        <description>
+</description>
+        <pubDate>Sun, 19 Jul 2015 00:00:00 -0600</pubDate>
+        <link>http://garthdb.com/events/bdconf/</link>
+        <guid isPermaLink="true">http://garthdb.com/events/bdconf/</guid>
+      </item>
+    
+      <item>
+        <title>Frontend Design Conf</title>
+        <description>
+</description>
+        <pubDate>Thu, 21 May 2015 00:00:00 -0600</pubDate>
+        <link>http://garthdb.com/events/frontenddesign/</link>
+        <guid isPermaLink="true">http://garthdb.com/events/frontenddesign/</guid>
+      </item>
+    
+      <item>
+        <title>ConvergeSE</title>
+        <description>
+</description>
+        <pubDate>Wed, 15 Apr 2015 00:00:00 -0600</pubDate>
+        <link>http://garthdb.com/events/convergese-2015/</link>
+        <guid isPermaLink="true">http://garthdb.com/events/convergese-2015/</guid>
+      </item>
+    
+      <item>
+        <title>The East Wing: Don&#39;t Pay Me</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://twitter.com/ttimsmith&quot;&gt;Tim Smith&lt;/a&gt; invited me to join him on the 3rd Episode of The East Wing.&lt;/p&gt;
+
+&lt;p&gt;We had a good time talking about my failures as a freelancer, my trouble with agency work, and my love of open source.&lt;/p&gt;
+
+&lt;p&gt;It is always good to talk to Tim.&lt;/p&gt;
+
+&lt;p&gt;You can listen to the episode on &lt;a href=&quot;http://goodstuff.fm/theeastwing/3&quot;&gt;Goodstuff.fm&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Dec 2014 00:00:00 -0700</pubDate>
+        <link>http://garthdb.com/stuff/the-east-wing-dont-pay-me/</link>
+        <guid isPermaLink="true">http://garthdb.com/stuff/the-east-wing-dont-pay-me/</guid>
+      </item>
+    
+      <item>
+        <title>All Things Open</title>
+        <description>&lt;h2 id=&quot;session-description&quot;&gt;Session Description&lt;/h2&gt;
+
+&lt;p&gt;Design is a key part of any project. When used correctly it can communicate the product goals, it can entice new contributors, and it can make the product itself more effective.Garth Braithwaite has been the visual and experience design lead on a few projects including Brackets. He will discuss how to successfully solicit design contributions, and how to manage them.&lt;/p&gt;
+
+&lt;p&gt;Although the design community is becoming more active in the open source community, there are still times when developers are required to play the role of designer on a project. Garth will also spend time discussing design fundamentals and things anyone can do to improve the basic design of projects.&lt;/p&gt;
+
+&lt;h2 id=&quot;slides&quot;&gt;Slides&lt;/h2&gt;
+
+&lt;div class=&quot;videoWrapper&quot;&gt;&lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;a3acf7803c510132b7d4027c1edc7060&quot; data-ratio=&quot;1.29456384323641&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;photos&quot;&gt;Photos&lt;/h2&gt;
+
+&lt;div class=&quot;image&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5603/15722467401_294b3fe856_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://farm4.staticflickr.com/3951/15724389145_db6f776906_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7550/15700662846_9e52453144_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7496/15725937802_7aa7e5586b_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+</description>
+        <pubDate>Wed, 22 Oct 2014 00:00:00 -0600</pubDate>
+        <link>http://garthdb.com/talks/allthingsopen2014/</link>
+        <guid isPermaLink="true">http://garthdb.com/talks/allthingsopen2014/</guid>
+      </item>
+    
+      <item>
+        <title>ConvergeRVA</title>
+        <description>&lt;h2 id=&quot;session-description&quot;&gt;Session Description&lt;/h2&gt;
+
+&lt;p&gt;This session will cover a few topics in relation to open source design, including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Open source licenses&lt;/li&gt;
+  &lt;li&gt;Benefits of open sourcing design work&lt;/li&gt;
+  &lt;li&gt;How to open source work&lt;/li&gt;
+  &lt;li&gt;How to contribute design to open source projects&lt;/li&gt;
+  &lt;li&gt;How to make friends with other designers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This topic is aimed at designers and some development practices will be discussed.&lt;/p&gt;
+
+&lt;h2 id=&quot;slides&quot;&gt;Slides&lt;/h2&gt;
+
+&lt;div class=&quot;videoWrapper&quot;&gt;&lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;cc97bfb0fd45013028412ea85c7f8b0b&quot; data-ratio=&quot;1.29456384323641&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;photos&quot;&gt;Photos&lt;/h2&gt;
+
+&lt;div class=&quot;image&quot;&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8574/15991110566_759586fa0c_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7527/15829480618_24acbf144d_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8623/16016199762_d08174b1d7_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://farm4.staticflickr.com/3789/10227718326_343926cf68_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+</description>
+        <pubDate>Fri, 10 Oct 2014 00:00:00 -0600</pubDate>
+        <link>http://garthdb.com/talks/convergerva2014/</link>
+        <guid isPermaLink="true">http://garthdb.com/talks/convergerva2014/</guid>
+      </item>
+    
+      <item>
+        <title>Adobe MAX</title>
+        <description>&lt;h2 id=&quot;session-description&quot;&gt;Session Description&lt;/h2&gt;
+
+&lt;p&gt;Join Garth Braithwaite, visual and experience design lead on projects including Brackets, as he discusses how software development has benefited from open source practices and how designers can likewise leverage open collaboration to improve workflows and products.&lt;/p&gt;
+
+&lt;p&gt;As an experienced open source developer and designer, Braithwaite will discuss how to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Reap the benefits of open sourcing design work&lt;/li&gt;
+  &lt;li&gt;Open source creative work&lt;/li&gt;
+  &lt;li&gt;Use open source licenses&lt;/li&gt;
+  &lt;li&gt;Contribute design to open source development projects&lt;/li&gt;
+  &lt;li&gt;Make friends with other designers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;photos&quot;&gt;Photos&lt;/h2&gt;
+
+&lt;div class=&quot;image&quot;&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8591/15829516948_dc2668f728_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7469/15397300793_d12ceff91d_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7583/15397301293_99f8ae6640_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7464/16014973191_d181c3ed7b_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7531/15394670474_8b8dcbf382_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8579/15829514858_cf4bdf62d6_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+</description>
+        <pubDate>Tue, 07 Oct 2014 00:00:00 -0600</pubDate>
+        <link>http://garthdb.com/talks/max2014/</link>
+        <guid isPermaLink="true">http://garthdb.com/talks/max2014/</guid>
+      </item>
+    
+      <item>
         <title>Web Creator is Enough</title>
         <description>&lt;p&gt;How do we, as web designers and developers, see ourselves?&lt;/p&gt;
 
@@ -41,7 +158,7 @@
       </item>
     
       <item>
-        <title>Designers Can Open Source</title>
+        <title>Blend Conference</title>
         <description>&lt;div class=&quot;videoWrapper&quot;&gt;
   &lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;//www.youtube.com/embed/djf8sLjtbzU?rel=0&amp;amp;controls=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -53,8 +170,8 @@
 &lt;p&gt;This was also the start of &lt;a href=&quot;http://designopen.org&quot;&gt;Design Open&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 07 Sep 2013 00:00:00 -0600</pubDate>
-        <link>http://garthdb.com/talks/designers-can-open-source/</link>
-        <guid isPermaLink="true">http://garthdb.com/talks/designers-can-open-source/</guid>
+        <link>http://garthdb.com/talks/blendconf2013/</link>
+        <guid isPermaLink="true">http://garthdb.com/talks/blendconf2013/</guid>
       </item>
     
   </channel>
