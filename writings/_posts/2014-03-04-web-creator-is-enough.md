@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: event
 title:  "Web Creator is Enough"
 date:   2014-03-04 10:21:23
+headerimg: /img/web_creator.svg
 ---
-
 How do we, as web designers and developers, see ourselves?
 
 Spend some time looking through our Twitter bios. Look at self-promoting, creative-professional websites (i.e agencies, freelancers, portfolios, etc). You can’t swing a dead pixel without hitting some giant header with an introduction that sounds nothing like web development or design.
