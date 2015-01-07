@@ -92,17 +92,17 @@ html {
 
 a {
   text-decoration: none;
-  color: #1389C7; }
+  color: #2185C5; }
   a:hover {
-    color: #5184B6; }
+    color: #FF7F66; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #322F2C; }
+  color: #3E454C; }
 
 h1 {
   text-transform: uppercase;
   font-size: 2.5rem;
-  color: #322F2C;
+  color: #3E454C;
   margin-bottom: 1.25rem; }
 
 h2 {
@@ -121,7 +121,7 @@ time {
 body {
   min-height: 100%;
   font-family: "open_sans";
-  background: #F9F4F0;
+  background: #FFF6E5;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 1rem;
@@ -144,12 +144,12 @@ body {
 
 .site-header, .site-footer {
   padding: 20px;
-  color: #F9F4F0;
-  background: #322F2C; }
+  color: #FFF6E5;
+  background: #3E454C; }
   .site-header a, .site-footer a {
-    color: #F9F4F0; }
+    color: #FFF6E5; }
     .site-header a:hover, .site-footer a:hover {
-      color: #5184B6; }
+      color: #FF7F66; }
   .site-header path, .site-footer path {
     fill: currentColor; }
 
@@ -173,10 +173,10 @@ body {
       margin-top: 2px; }
     .site-footer .post-list h1 {
       font-size: 1.2rem;
-      color: #F9F4F0;
+      color: #FFF6E5;
       font-weight: 600;
       text-transform: none;
-      border-bottom: 1px solid #F9F4F0;
+      border-bottom: 1px solid #FFF6E5;
       padding-bottom: 10px; }
     .site-footer .post-list ul {
       margin: 0;
@@ -218,7 +218,7 @@ body {
   padding-left: 4rem;
   margin-bottom: 1rem; }
 .post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
-  color: #322F2C; }
+  color: #3E454C; }
 .post .header-image {
   margin-bottom: 20px;
   width: 100%;
