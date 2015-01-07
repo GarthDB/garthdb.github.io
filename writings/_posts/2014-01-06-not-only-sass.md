@@ -1,30 +1,13 @@
 ---
-layout: event
+layout: header-image-post
 title:  "Not Only Sass"
 date:   2015-01-06 10:21:23
 headerimg: /img/not_only_sass.svg
 ---
-How do we, as web designers and developers, see ourselves?
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
 
-Spend some time looking through our Twitter bios. Look at self-promoting, creative-professional websites (i.e agencies, freelancers, portfolios, etc). You can’t swing a dead pixel without hitting some giant header with an introduction that sounds nothing like web development or design.
+Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
 
-* Hi I’m Garth and I’m a Storyteller
-* Hello, we are Fake Agency and we make digital experiences
-* Hola, I handcraft beautiful websites
-* I like making great ideas happen
-* We grow brands
-* I’m a problem solver
+Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
 
-These fall into two categories: too obvious and overreaching.
-
-We’re all problem solvers and we make great ideas happen, and I wouldn’t say we have the monopoly on these traits.
-
-Storyteller? Handcraft? Let’s leave those words to artists without ctrl+z. Besides, being a web developer and designer is the best. We don’t need to borrow other industries’ titles; we are awesome already.
-
-## I understand
-
-I really do; we do it to market, to set ourselves apart, or to be memorable. That makes sense, but great work speaks louder than any tag line. So if you feel the need to put some vague or over the top introduction on your site, that’s cool, but don’t delude yourself; you make websites for money, and that makes you awesome.
-
-### Oh and you grow brands?
-
-Just stop. That doesn’t mean anything.
+Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.

@@ -1,8 +1,8 @@
 ---
-layout: event
+layout: header-image-post
 title:  "Web Creator is Enough"
 date:   2014-03-04 10:21:23
-headerimg: /img/web_creator.svg
+headerinclude: web_creator.html
 ---
 How do we, as web designers and developers, see ourselves?
 

@@ -188,7 +188,7 @@ body {
     list-style: none; }
   .social-links li {
     display: inline-block;
-    margin: 0 10px; }
+    margin: 0 6px; }
 
 .videoWrapper {
   position: relative;
@@ -203,26 +203,35 @@ body {
     width: 100% !important;
     height: 100% !important; }
 
-.post p, .post ul {
-  max-width: 550px;
-  padding: 0 30px; }
-.post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
-  padding: 0 30px; }
-.post p, .post ul {
+.post p, .post ul, .post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
+  position: realtive;
+  margin-left: auto;
+  margin-right: auto; }
+
+.post p, .post ul, .event p, .event ul {
+  max-width: 600px;
+  padding: 0 50px;
+  box-sizing: border-box;
   margin-bottom: 1rem;
   font-size: 1.1rem;
   line-height: 1.7rem;
   color: #3E454D; }
-.post ul {
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6, .event h1, .event h2, .event h3, .event h4, .event h5, .event h6 {
+  max-width: 600px;
+  padding: 0 30px;
+  box-sizing: border-box; }
+.post ul, .event ul {
   list-style: disc inside none;
   padding-left: 4rem;
   margin-bottom: 1rem; }
-.post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6, .event h1, .event h2, .event h3, .event h4, .event h5, .event h6 {
   color: #3E454C; }
-.post .header-image {
+.post .header-image, .event .header-image {
   margin-bottom: 20px;
   width: 100%;
   height: auto; }
+.post .header-include, .event .header-include {
+  margin-bottom: 20px; }
 
 .post-header {
   padding-top: 35px; }

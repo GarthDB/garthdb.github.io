@@ -94,7 +94,7 @@ body
     list-style: none
   li
     display: inline-block
-    margin: 0 10px
+    margin: 0 6px
 .videoWrapper
   position: relative
   padding-bottom: 56.25%
@@ -108,16 +108,23 @@ body
     width: 100% !important
     height: 100% !important
 .post
+  p, ul, h1, h2, h3, h4, h5, h6
+    position: realtive
+    margin-left: auto
+    margin-right: auto
+.post, .event
   p, ul
-    max-width: 550px
-    padding: 0 30px
-  h1, h2, h3, h4, h5, h6
-    padding: 0 30px
-  p, ul
+    max-width: 600px
+    padding: 0 50px
+    box-sizing: border-box
     margin-bottom: 1rem
     font-size: 1.1rem
     line-height: 1.7rem
     color: $content-text
+  h1, h2, h3, h4, h5, h6
+    max-width: 600px
+    padding: 0 30px
+    box-sizing: border-box
   ul
     list-style: disc inside none
     padding-left: 4rem
@@ -128,6 +135,8 @@ body
     margin-bottom: 20px
     width: 100%
     height: auto
+  .header-include
+    margin-bottom: 20px
 .post-header
   padding-top: 35px
 .post-list
