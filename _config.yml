@@ -5,7 +5,8 @@ description: "Ramblings of Garth Braithwaite."
 baseurl: ""
 url: "http://garthdb.com"
 sass:
-    sass_dir: css
+  sass_dir: css
+  style: compressed
 
 # Build settings
 markdown: kramdown
