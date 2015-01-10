@@ -7,5 +7,8 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="shortcut icon" href="/favicon.ico">
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <style type="text/css">
+    {% capture include_to_sassify %}{% include main.sass %}{% endcapture %}
+    {{ include_to_sassify | sassify }}
+  </style>
 </head>
