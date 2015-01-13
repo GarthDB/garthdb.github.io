@@ -4,6 +4,8 @@ layout: default
 <div class="event">
   {% if page.headerinclude %}
     {% include {{page.headerinclude}} %}
+  {% else %}
+    <h1>{{ page.title }}</h1>
   {% endif %}
   {% if page.headerimg %}
   <img class="header-image" src="{{ page.headerimg }}"/>
