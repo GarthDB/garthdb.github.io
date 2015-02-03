@@ -6,7 +6,7 @@ layout: default
     {% include {{page.headerinclude}} %}
   {% endif %}
   {% if page.headerimg %}
-  <img class="header-image" src="{{ page.headerimg }}"/>
+  <img class="header-image" src="{{ page.headerimg }}" alt="{{ page.title }}"/>
   {% endif %}
   <article class="post-content">
   {{ content }}

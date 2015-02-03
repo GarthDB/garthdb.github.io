@@ -3,16 +3,16 @@
   <channel>
     <title>GarthDB</title>
     <description>Ramblings of Garth Braithwaite.</description>
-    <link>http://garthdb.com/</link>
-    <atom:link href="http://garthdb.com/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://garthdb.github.io//</link>
+    <atom:link href="http://garthdb.github.io//feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Beyond the Desktop</title>
         <description>
 </description>
         <pubDate>Fri, 10 Jul 2015 00:00:00 -0600</pubDate>
-        <link>http://garthdb.com/events/bdconf/</link>
-        <guid isPermaLink="true">http://garthdb.com/events/bdconf/</guid>
+        <link>http://garthdb.github.io//events/bdconf/</link>
+        <guid isPermaLink="true">http://garthdb.github.io//events/bdconf/</guid>
       </item>
     
       <item>
@@ -20,8 +20,8 @@
         <description>
 </description>
         <pubDate>Thu, 21 May 2015 00:00:00 -0600</pubDate>
-        <link>http://garthdb.com/events/frontenddesign/</link>
-        <guid isPermaLink="true">http://garthdb.com/events/frontenddesign/</guid>
+        <link>http://garthdb.github.io//events/frontenddesign/</link>
+        <guid isPermaLink="true">http://garthdb.github.io//events/frontenddesign/</guid>
       </item>
     
       <item>
@@ -29,8 +29,8 @@
         <description>
 </description>
         <pubDate>Sat, 25 Apr 2015 00:00:00 -0600</pubDate>
-        <link>http://garthdb.com/events/360-intersect/</link>
-        <guid isPermaLink="true">http://garthdb.com/events/360-intersect/</guid>
+        <link>http://garthdb.github.io//events/360-intersect/</link>
+        <guid isPermaLink="true">http://garthdb.github.io//events/360-intersect/</guid>
       </item>
     
       <item>
@@ -38,8 +38,8 @@
         <description>
 </description>
         <pubDate>Wed, 15 Apr 2015 00:00:00 -0600</pubDate>
-        <link>http://garthdb.com/events/convergese-2015/</link>
-        <guid isPermaLink="true">http://garthdb.com/events/convergese-2015/</guid>
+        <link>http://garthdb.github.io//events/convergese-2015/</link>
+        <guid isPermaLink="true">http://garthdb.github.io//events/convergese-2015/</guid>
       </item>
     
       <item>
@@ -53,8 +53,8 @@
 &lt;p&gt;Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.&lt;/p&gt;
 </description>
         <pubDate>Tue, 06 Jan 2015 03:21:23 -0700</pubDate>
-        <link>http://garthdb.com/writings/not-only-sass/</link>
-        <guid isPermaLink="true">http://garthdb.com/writings/not-only-sass/</guid>
+        <link>http://garthdb.github.io//writings/not-only-sass/</link>
+        <guid isPermaLink="true">http://garthdb.github.io//writings/not-only-sass/</guid>
       </item>
     
       <item>
@@ -68,8 +68,8 @@
 &lt;p&gt;You can listen to the episode on &lt;a href=&quot;http://goodstuff.fm/theeastwing/3&quot;&gt;Goodstuff.fm&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Dec 2014 00:00:00 -0700</pubDate>
-        <link>http://garthdb.com/stuff/the-east-wing-dont-pay-me/</link>
-        <guid isPermaLink="true">http://garthdb.com/stuff/the-east-wing-dont-pay-me/</guid>
+        <link>http://garthdb.github.io//stuff/the-east-wing-dont-pay-me/</link>
+        <guid isPermaLink="true">http://garthdb.github.io//stuff/the-east-wing-dont-pay-me/</guid>
       </item>
     
       <item>
@@ -86,11 +86,11 @@
 
 &lt;h2 id=&quot;photos&quot;&gt;Photos&lt;/h2&gt;
 
-&lt;div class=&quot;image&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5603/15722467401_294b3fe856_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://farm4.staticflickr.com/3951/15724389145_db6f776906_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7550/15700662846_9e52453144_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7496/15725937802_7aa7e5586b_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;image&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5603/15722467401_294b3fe856_o_d.jpg&quot; alt=&quot;Garth Braithwaite presenting&quot; /&gt;&lt;img src=&quot;https://farm4.staticflickr.com/3951/15724389145_db6f776906_o_d.jpg&quot; alt=&quot;Garth Braithwaite pointing at himself while presenting&quot; /&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7550/15700662846_9e52453144_o_d.jpg&quot; alt=&quot;Group of people attending session - the woman in focus has pink hair&quot; /&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7496/15725937802_7aa7e5586b_o_d.jpg&quot; alt=&quot;Another one of me presenting&quot; /&gt;&lt;/div&gt;
 </description>
         <pubDate>Wed, 22 Oct 2014 00:00:00 -0600</pubDate>
-        <link>http://garthdb.com/talks/allthingsopen2014/</link>
-        <guid isPermaLink="true">http://garthdb.com/talks/allthingsopen2014/</guid>
+        <link>http://garthdb.github.io//talks/allthingsopen2014/</link>
+        <guid isPermaLink="true">http://garthdb.github.io//talks/allthingsopen2014/</guid>
       </item>
     
       <item>
@@ -115,11 +115,11 @@
 
 &lt;h2 id=&quot;photos&quot;&gt;Photos&lt;/h2&gt;
 
-&lt;div class=&quot;image&quot;&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8574/15991110566_759586fa0c_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7527/15829480618_24acbf144d_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8623/16016199762_d08174b1d7_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://farm4.staticflickr.com/3789/10227718326_343926cf68_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;image&quot;&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8574/15991110566_759586fa0c_o_d.jpg&quot; alt=&quot;Presenting&quot; /&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7527/15829480618_24acbf144d_o_d.jpg&quot; alt=&quot;setting up&quot; /&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8623/16016199762_d08174b1d7_o_d.jpg&quot; alt=&quot;Richmond&#39;s airport&quot; /&gt;&lt;img src=&quot;https://farm4.staticflickr.com/3789/10227718326_343926cf68_o_d.jpg&quot; alt=&quot;ConvergeRVA marquee&quot; /&gt;&lt;/div&gt;
 </description>
         <pubDate>Fri, 10 Oct 2014 00:00:00 -0600</pubDate>
-        <link>http://garthdb.com/talks/convergerva2014/</link>
-        <guid isPermaLink="true">http://garthdb.com/talks/convergerva2014/</guid>
+        <link>http://garthdb.github.io//talks/convergerva2014/</link>
+        <guid isPermaLink="true">http://garthdb.github.io//talks/convergerva2014/</guid>
       </item>
     
       <item>
@@ -140,11 +140,11 @@
 
 &lt;h2 id=&quot;photos&quot;&gt;Photos&lt;/h2&gt;
 
-&lt;div class=&quot;image&quot;&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8591/15829516948_dc2668f728_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7469/15397300793_d12ceff91d_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7583/15397301293_99f8ae6640_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7464/16014973191_d181c3ed7b_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7531/15394670474_8b8dcbf382_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8579/15829514858_cf4bdf62d6_o_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;image&quot;&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8591/15829516948_dc2668f728_o_d.jpg&quot; alt=&quot;Donuts for my session&quot; /&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7469/15397300793_d12ceff91d_o_d.jpg&quot; alt=&quot;The people at my second session&quot; /&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7583/15397301293_99f8ae6640_o_d.jpg&quot; alt=&quot;The famous farm brownie&quot; /&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7464/16014973191_d181c3ed7b_o_d.jpg&quot; alt=&quot;A custom threadless shirt&quot; /&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7531/15394670474_8b8dcbf382_o_d.jpg&quot; alt=&quot;The elevator&quot; /&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8579/15829514858_cf4bdf62d6_o_d.jpg&quot; alt=&quot;Headless walking&quot; /&gt;&lt;/div&gt;
 </description>
         <pubDate>Tue, 07 Oct 2014 00:00:00 -0600</pubDate>
-        <link>http://garthdb.com/talks/max2014/</link>
-        <guid isPermaLink="true">http://garthdb.com/talks/max2014/</guid>
+        <link>http://garthdb.github.io//talks/max2014/</link>
+        <guid isPermaLink="true">http://garthdb.github.io//talks/max2014/</guid>
       </item>
     
       <item>
@@ -177,8 +177,8 @@
 &lt;p&gt;Just stop. That doesn’t mean anything.&lt;/p&gt;
 </description>
         <pubDate>Tue, 04 Mar 2014 03:21:23 -0700</pubDate>
-        <link>http://garthdb.com/writings/web-creator-is-enough/</link>
-        <guid isPermaLink="true">http://garthdb.com/writings/web-creator-is-enough/</guid>
+        <link>http://garthdb.github.io//writings/web-creator-is-enough/</link>
+        <guid isPermaLink="true">http://garthdb.github.io//writings/web-creator-is-enough/</guid>
       </item>
     
   </channel>
