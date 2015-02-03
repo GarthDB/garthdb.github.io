@@ -5,11 +5,13 @@ layout: default
   {% if page.headerinclude %}
     {% include {{page.headerinclude}} %}
   {% else %}
-    <h1>{{ page.title }}</h1>
+    {% if page.headerimg %}
+      <img class="header-image" src="{{ page.headerimg }}" alt="{{ page.title }}"/>
+    {% else %}
+      <h1>{{ page.title }}</h1>
+    {% endif %}
   {% endif %}
-  {% if page.headerimg %}
-  <img class="header-image" src="{{ page.headerimg }}" alt="{{ page.title }}"/>
-  {% endif %}
+
   <article class="post-content">
   {{ content }}
   </article>
