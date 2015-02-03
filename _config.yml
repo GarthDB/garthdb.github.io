@@ -1,11 +1,12 @@
 # Site settings
 title: GarthDB
-email: garthdb@gmai.com
+email: garthdb@gmail.com
 description: "Ramblings of Garth Braithwaite."
 baseurl: ""
 url: "http://garthdb.github.io/"
 sass:
-    sass_dir: css
+  sass_dir: css
+  style: compressed
 
 # Build settings
 markdown: kramdown

@@ -73,6 +73,27 @@
       </item>
     
       <item>
+        <title>PhoneGap Day 2014</title>
+        <description>&lt;h2 id=&quot;session-description&quot;&gt;Session Description&lt;/h2&gt;
+
+&lt;p&gt;I gave a short talk at PhoneGap 2014 about working with design and talking care of design when a designer is not available.&lt;/p&gt;
+
+&lt;p&gt;The talk is only 13 min long and the video is included below.&lt;/p&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;div class=&quot;videoWrapper&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/LEwmngFyBb4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;photos&quot;&gt;Photos&lt;/h2&gt;
+
+&lt;div class=&quot;image&quot;&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7531/16081340059_8442af6793_o_d.jpg&quot; alt=&quot;Garth Braithwaite American Hero&quot; /&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7554/16265647161_6272caee65_o_d.jpg&quot; alt=&quot;PhoneGap Day Attendees&quot; /&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8638/16266628792_b576daaf13_o_d.jpg&quot; alt=&quot;Garth Braithwaite presenting&quot; /&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7524/16266629372_133f447776_o_d.jpg&quot; alt=&quot;My favorite kristofer&quot; /&gt;&lt;/div&gt;
+</description>
+        <pubDate>Fri, 24 Oct 2014 00:00:00 -0600</pubDate>
+        <link>http://garthdb.github.io//talks/phonegapday/</link>
+        <guid isPermaLink="true">http://garthdb.github.io//talks/phonegapday/</guid>
+      </item>
+    
+      <item>
         <title>All Things Open</title>
         <description>&lt;h2 id=&quot;session-description&quot;&gt;Session Description&lt;/h2&gt;
 
@@ -145,40 +166,6 @@
         <pubDate>Tue, 07 Oct 2014 00:00:00 -0600</pubDate>
         <link>http://garthdb.github.io//talks/max2014/</link>
         <guid isPermaLink="true">http://garthdb.github.io//talks/max2014/</guid>
-      </item>
-    
-      <item>
-        <title>Web Creator is Enough</title>
-        <description>&lt;p&gt;How do we, as web designers and developers, see ourselves?&lt;/p&gt;
-
-&lt;p&gt;Spend some time looking through our Twitter bios. Look at self-promoting, creative-professional websites (i.e agencies, freelancers, portfolios, etc). You can’t swing a dead pixel without hitting some giant header with an introduction that sounds nothing like web development or design.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Hi I’m Garth and I’m a Storyteller&lt;/li&gt;
-  &lt;li&gt;Hello, we are Fake Agency and we make digital experiences&lt;/li&gt;
-  &lt;li&gt;Hola, I handcraft beautiful websites&lt;/li&gt;
-  &lt;li&gt;I like making great ideas happen&lt;/li&gt;
-  &lt;li&gt;We grow brands&lt;/li&gt;
-  &lt;li&gt;I’m a problem solver&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;These fall into two categories: too obvious and overreaching.&lt;/p&gt;
-
-&lt;p&gt;We’re all problem solvers and we make great ideas happen, and I wouldn’t say we have the monopoly on these traits.&lt;/p&gt;
-
-&lt;p&gt;Storyteller? Handcraft? Let’s leave those words to artists without ctrl+z. Besides, being a web developer and designer is the best. We don’t need to borrow other industries’ titles; we are awesome already.&lt;/p&gt;
-
-&lt;h2 id=&quot;i-understand&quot;&gt;I understand&lt;/h2&gt;
-
-&lt;p&gt;I really do; we do it to market, to set ourselves apart, or to be memorable. That makes sense, but great work speaks louder than any tag line. So if you feel the need to put some vague or over the top introduction on your site, that’s cool, but don’t delude yourself; you make websites for money, and that makes you awesome.&lt;/p&gt;
-
-&lt;h3 id=&quot;oh-and-you-grow-brands&quot;&gt;Oh and you grow brands?&lt;/h3&gt;
-
-&lt;p&gt;Just stop. That doesn’t mean anything.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 04 Mar 2014 03:21:23 -0700</pubDate>
-        <link>http://garthdb.github.io//writings/web-creator-is-enough/</link>
-        <guid isPermaLink="true">http://garthdb.github.io//writings/web-creator-is-enough/</guid>
       </item>
     
   </channel>
