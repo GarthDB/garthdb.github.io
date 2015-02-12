@@ -15,4 +15,4 @@ The talk is only 13 min long and the video is included below.
 
 ## Photos
 
-<div class="image"><img src="https://farm8.staticflickr.com/7531/16081340059_8442af6793_o_d.jpg" alt=""/><img src="https://farm8.staticflickr.com/7554/16265647161_6272caee65_o_d.jpg" alt=""/><img src="https://farm9.staticflickr.com/8638/16266628792_b576daaf13_o_d.jpg" alt=""/><img src="https://farm8.staticflickr.com/7524/16266629372_133f447776_o_d.jpg" alt=""/></div>
+<div class="image"><img src="https://farm8.staticflickr.com/7531/16081340059_8442af6793_o_d.jpg" alt="Garth Braithwaite American Hero"/><img src="https://farm8.staticflickr.com/7554/16265647161_6272caee65_o_d.jpg" alt="PhoneGap Day Attendees"/><img src="https://farm9.staticflickr.com/8638/16266628792_b576daaf13_o_d.jpg" alt="Garth Braithwaite presenting"/><img src="https://farm8.staticflickr.com/7524/16266629372_133f447776_o_d.jpg" alt="My favorite kristofer"/></div>
