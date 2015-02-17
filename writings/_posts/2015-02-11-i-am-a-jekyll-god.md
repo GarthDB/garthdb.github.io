@@ -1,10 +1,10 @@
 ---
 layout: header-image-post
-title:  "Not Only Sass"
+title:  "I am a Jekyll God"
 date:   2015-01-06 10:21:23
 headerimg: /img/not_only_sass.svg
 ---
-We’ve used [Jekyll](http://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/) to host [DesignOpen.org](http://DesignOpen.org) since we published the first line of code and although we love our setup, we haven’t taken full advantage of the system; until yesterday’s [pull request](https://github.com/DesignOpen/designopen.github.io/pull/157). After making said pull request, and being drunk on the power of a [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=designopen.org) score of 95, I made this hasty declaration on our team Slack:
+We’ve used [Jekyll](http://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/) to host [DesignOpen.org](http://designopen.org/) since we published the first line of code and although we love our setup, we haven’t taken full advantage of the system; until last week’s [pull request](https://github.com/DesignOpen/designopen.github.io/pull/157). After making said pull request, and being drunk on the power of a [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=designopen.org) score of 96, I made this hasty declaration to [Una](http://www.twitter.com/una) on our team Slack:
 
 > *[11:25 PM]*  
 > I got travis hooked up on the site  
@@ -16,66 +16,80 @@ We’ve used [Jekyll](http://jekyllrb.com/) and [GitHub Pages](https://pages.git
 > I get full of myself when I stay up late  
 > I need to go to bed.  
 
-Although it’s a bit of stretch to declare myself a Jekyll God, you too can become one, following these simple steps that other people have published and I am taking advantaging of by compiling them in this article.
+Although it’s a bit of a stretch to declare myself a Jekyll God, you too can become one, following these simple steps that other people have published and that I have taken advantaging of by compiling them in this article.
 
 #### Open Blog Requirements
 
-Design Open is an open source blog; it is designed to allow community members to publish articles and front end contributions by making pull requests to our [main GitHub repository](http://github.com/DesignOpen/designopen.github.io). Also, we want new contributions to go live as soon as we accept the pull request. This requirement means we don’t use any custom Jekyll plugins or local build steps. No Gulp, Grunt, Rake, or manual stuff. We thought this would mean we’d have to compromise on loading speed, but we’ve found some great workarounds.
+Design Open is an open source blog; it is designed to allow community members to publish articles and front end contributions by making pull requests to our [main GitHub repository](http://github.com/DesignOpen/designopen.github.io). Also, we want new contributions to go live as soon as we accept the pull request. This requirement means we don’t use any custom Jekyll plugins or local build steps. No Gulp, Grunt, Rake, or manual stuff. We thought this would mean we’d have to compromise on loading speed, but we’ve found some great workarounds.
 
 #### Minify and Inline the Styles
 
-Jekyll and GitHub Pages now support [Sass](http://sass-lang.com) and [CoffeeScript](http://coffeescript.com) by default, so you can take full advantage of the optimization available with Sass.
+Jekyll and GitHub Pages now support [Sass](http://sass-lang.com/) and [CoffeeScript](http://coffeescript.com/) by default, so you can take full advantage of the file size optimization available with Sass.
 
-In your __config.yml_ you can configure Sass to output compressed css; checkout the _style: compressed_ line of our configuration file:
+In your __config.yml_ you can configure Sass to output compressed css; checkout the _style: compressed_ line of our configuration file:
 
 {% gist GarthDB/b53143edbd26ffd3800c %}
 
+You can also take advantage of Sass’s import to concatenate all your styles into a single file. The main benefit of a single stylesheet is that it greatly reduces the number of server requests when first loading the page. However, while we want a single final stylesheet, we also love breaking our styles in as many files as possible to help organize the ever growing beast that is a styled website. Here is our _main.scss_:
+
+{% gist GarthDB/36e673c61d1c26f77f30 %}
+
 It’s really just an empty shell of a file that spends it’s life trying to get other resources to work together; like a middle manager.
 
-Now we can take our stylesheets to the next level by inlining them in the _&lt;head&gt;_. This might seem like a strange thing to do to improve the page speed since embedding the css in the html negates any benefit of caching the css file, but it all depends on the css file size. Often times an additional request to the server is worse than the additional size of the css in the html. Google has a great explanation on their  [developer docs](https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery).
+Now we can take our stylesheets to the next level by embedding them in the_&lt;head&gt;_. The decision to embed styles in the html is based on the size of the CSS file. With smallish CSS files, inlining can improve page speed by removing the additional server requests. Google has a great explanation of the benefits of inlining on their [developer docs](https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery).
 
-This trick came from [Kevin Sweet’s blog](http://www.kevinsweet.com/inline-scss-jekyll-github-pages/). It requires you move your main sass (or scss) file to the __includes_ directory and then include and pass it through the new _sassify_ or _scssify_ filter. Here’s the example for Kevin’s blog:
+I learned about using Jekyll to embed the css from [Kevin Sweet’s blog](http://www.kevinsweet.com/inline-scss-jekyll-github-pages/). It requires you move your main sass (or scss) file to the __includes_ directory and then include it while passing it through the new _sassify_ or _scssify_ filter. Here’s the example from Kevin’s blog:
 
 {% gist GarthDB/c142f2ae2df9b06a14d3 %}
 
-A quick note, since our _main.scss_ file is in the __includes_ directory and isn’t being parsed like a normal Jekyll Sass file, we don’t need the front matter. Also, you can still import any sass file stored in your configured sass folder without having to change the import paths; pretty nifty.
+A quick note, since your _main.scss_ file is now in the __includes_ directory and isn’t being parsed like a normal Jekyll Sass file, don’t include the Jekyll [front matter](http://jekyllrb.com/docs/frontmatter/) that is normally required. Also, you can still import any Sass file from your configured Sass folder, into your primary Sass stylesheet, without having to change the import paths; pretty nifty.
 
 #### Minify the HTML
 
-Minifying html is a complicated problem since we are not using any build scripts outside of the default Jekyll and it does not have a minify option, but luckily [Anatol Broder](http://penibelst.de/) has taken all the pain out of the solution with his [_compress.html_](https://github.com/penibelst/jekyll-compress-html) layout.
+Unlike Sass, Jekyll does not, by default, have an option for minifying the generated HTML. Originally I had assumed we would be stuck with fat HTML, since we were avoiding anything outside of the default Jekyll setup, but I found a solution from [Anatol Broder](http://penibelst.de/) that solves the problem wonderfully.
 
-Just download the [_compress.html_](https://github.com/penibelst/jekyll-compress-html/releases/tag/v1.1.1) layout and put it in your __layout _directory. Then set any root level layout or html file to be based on _compress.html_. For example, our _default.html_ layout includes this front matter: 
+Anatol created a Jekyll layout that removes unnecessary whitespace from the content. To use it in your site, just download the [_compress.html_](https://github.com/penibelst/jekyll-compress-html/releases/tag/v1.1.1) layout and put it in your __layouts _directory. Then set any root level layout or html file to be based on _compress_. For example, our _default.html_ layout includes this front matter:
 
 {% gist GarthDB/ad5a9f679df5e186c387 %}
 
 #### Adding Tests
 
-The final step to becoming a God of the open blog, is to add automated tests to you public repository. The main goal is just to make sure we know that any new code someone might contribute will not break the Jekyll build process before we even look at the pull request. However, we can also use the opportunity of running tests to check for broken links using the HTML Proofer Library.
+The final step to becoming a God of the open blog, is to add automated tests to you public repository. The main goal is to verify that any new code contributed will not break the Jekyll build process before you invest the time to review the pull request. However, you can also use the opportunity of running tests to check for broken links using the HTML Proofer Library.
 
-This tip comes directly from [Jekyll’s documentation](http://jekyllrb.com/docs/continuous-integration/) on automation, but we’ve tweaked it a bit for DesignOpen. I ended up using [Rake](https://github.com/ruby/rake) to configure and run the test task; this route seems a bit more standard and it makes it easier to run the test locally.
+This tip comes directly from [Jekyll’s documentation](http://jekyllrb.com/docs/continuous-integration/) on automation, but we’ve tweaked it a bit for DesignOpen. I ended up using [Rake](https://github.com/ruby/rake) to configure and run the _test_ task; this route seems a bit more standard since Rake is fairly popular in Ruby projects, and it makes it easier to run the test locally.
 
-Before you can automate the test, you need to turn on Travis for your repo on your [profile](https://travis-ci.org/profile/).
+To automate your tests, use [Travis CI](https://travis-ci.org/). It is a free service for public GitHub repositories and it will run tests automatically on every push; I highly recommend it for all testable projects
 
-Next, add a _.travis.yml_ file to your root directory. This configures the test to run.
+Before you can automate the test, you need to turn on Travis CI for your repo in your [profile](https://travis-ci.org/profile/). Then, add a _.travis.yml_ file to your root directory, which configures how the test should be run.
 
 {% gist GarthDB/9aa03233c220346e0021 %}
 
-Most of this example is self explanitory; the _script_ property is the command that is run, and the _env_ is something that the Jekyll documentation says will speed up the gem installation process of the test. I have no idea if that’s true; I’m just taking it on blind faith.
+Most of this example is self explanitory; the _script_ property is the command that is run, and the _env_ is something that the Jekyll documentation says will speed up the gem installation process of the test. I have no idea if that’s true; I’m just taking it on blind faith.
 
-You also need to create a _:test_ task in your Rakefile. If you aren’t already using Rake, just use something like this:
+You also need to create a _:test_ task in your Rakefile. If you aren’t already using Rake, just use something like this:
 
 {% gist GarthDB/f7018996c1eb1475be1a %}
 
-I’m not going to do a deep dive into Rake here, but the important parts are on lines _5_ and _6_. First it builds the Jekyll site, then it uses the [HTML Proofer ](https://github.com/gjtorikian/html-proofer)gem to check all the links in the __site_ directory. Checkout the gem’s [_README.md_](https://github.com/gjtorikian/html-proofer/blob/master/README.md) for the full documentation on the options; I wanted to see where errors occured, so I set _vebose_ to _true_. Also we use a local url in one our articles, so I to ignore that.
+I’m not going to do a deep dive into Rake here, but the important parts are on lines _5_ and _6_. First it builds the Jekyll site, then it uses the [HTML Proofer](https://github.com/gjtorikian/html-proofer)gem to check that all the URLs in the __site_ directory are active. I wanted to see where errors occured, so I set _vebose_ to _true_ and we also use a local url in one our articles, so I added the _:href_ignore_ to avoid the known error. Checkout the gem’s [_README.md_](https://github.com/gjtorikian/html-proofer/blob/master/README.md)_ _for the full documentation on the options
 
 The final step is to add the necessary gems to your Gemfile.
 
 {% gist GarthDB/4274823469bc8d8f52ce %}
 
-Use the _:test_ group for the gems that are only necessary for testing the urls.
+Use the _:test_ group for the gems that are only necessary for Travis CI to build and test..
 
 When it’s all set up correctly, you’ll see a Travis status on every pull request.
 
 ![Travis tests](/img/travis_tests_passed.png)
 
-That’s it. If you know of any other way to optimize a GitHub Jekyll site, let me know and I’ll add it to this list.
+#### Divine Limitations
+
+Despite our jekyllian apotheosis, we are not quite omnipotent. We are close to a 100/100 score on Google’s PageSpeed Insights, but the last few remainig warnings pertain to serverside caching policy issues. While GitHub pages are excellent, we aren’t given the ability to change those policies. I’ve already submitted the issue to GitHub, so hopefully that changes in the near future.
+
+![PageSpeed Insights](/img/insights.png)
+
+#### A Final Warning
+
+Although your new found power is real, and potentially useful, it’s not exactly super. Don’t let its intoxicating influence blind you to social contexts; these optimizations are not interesting enough to mention at dinner parties, and you should probably avoid referring to yourself as a god in any context.
+
+So use your knowledge wisely, and if you come across any other optimizations, feel free to let me know, and I’ll be sure to capitalize on your kindness by putting them in this article.
