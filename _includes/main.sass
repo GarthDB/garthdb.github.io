@@ -1,6 +1,7 @@
 @import reset.sass
 @import fonts/opensans/stylesheet.sass
 @import colors.sass
+@import syntax.sass
 
 html
   height: 100%
@@ -110,6 +111,10 @@ body
     position: realtive
     margin-left: auto
     margin-right: auto
+  &.left
+    p, ul, h1, h2, h3, h4, h5, h6
+      margin-left: 0
+      margin-right: 0
 .post, .event
   p, ul
     max-width: 600px
