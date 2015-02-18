@@ -2,7 +2,7 @@
 layout: header-image-post
 title:  "I am a Jekyll God"
 date:   2015-01-06 10:21:23
-headerimg: /img/jekyll_god.png
+headerimg: /img/jekyll_god.jpg
 articleclass: left
 ---
 We’ve used [Jekyll](http://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/) to host [DesignOpen.org](http://designopen.org/) since we published the first line of code and although we love our setup, we haven’t taken full advantage of the system; until last week’s [pull request](https://github.com/DesignOpen/designopen.github.io/pull/157). After making said pull request, and being drunk on the power of a [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=designopen.org) score of 96, I made this hasty declaration to [Una](http://www.twitter.com/una) on our team Slack:
