@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The East Wing: Don't Pay Me"
+title:  "The East Wing: Live Streaming Design with Sean Martell"
 date:   2015-02-10
 ---
 
