@@ -144,7 +144,7 @@ Use the _:test_ group for the gems that are only necessary for Travis CI to bu
 
 When it’s all set up correctly, you’ll see a Travis status on every pull request.
 
-<figure>
+<figure class="image">
   <img src="/img/travis_tests_passed.png" alt="Travis tests"/>
 </figure>
 
@@ -152,7 +152,7 @@ When it’s all set up correctly, you’ll see a Travis status on every pull req
 
 Despite our jekyllian apotheosis, we are not quite omnipotent. We are close to a 100/100 score on Google’s PageSpeed Insights, but the last few remainig warnings pertain to serverside caching policy issues. While GitHub pages are excellent, we aren’t given the ability to change those policies. I’ve already submitted the issue to GitHub, so hopefully that changes in the near future.
 
-<figure>
+<figure class="image">
   <img src="/img/insights.png" alt="PageSpeed Insights"/>
 </figure>
 
