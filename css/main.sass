@@ -1,9 +1,3 @@
----
----
-@import reset.sass
-@import fonts/opensans/stylesheet.sass
-@import colors.sass
-
 html
   height: 100%
 a
@@ -31,7 +25,7 @@ time
 body
   min-height: 100%
   font-family: 'open_sans'
-  background: $background-color
+  background: url('/img/light_noise.png') $background-color
   -moz-box-sizing: border-box
   box-sizing: border-box
   font-size: 1rem
@@ -52,13 +46,11 @@ body
 .site-header, .site-footer
   padding: 20px
   color: $background-color
-  background: $primary-accent
+  background: url('/img/dark_noise.png') $primary-accent
   & a
     color: $background-color
     &:hover
       color: $tertiary-accent
-  & path
-    fill: currentColor
 .site-footer
   bottom: 0
   width: 100%
@@ -88,6 +80,8 @@ body
     ul
       margin: 0
       padding: 0
+  path
+    fill: currentColor
 .social-links
   text-align: center
   ul
@@ -112,6 +106,10 @@ body
     position: realtive
     margin-left: auto
     margin-right: auto
+  &.left
+    p, ul, h1, h2, h3, h4, h5, h6
+      margin-left: 0
+      margin-right: 0
 .post, .event
   p, ul
     max-width: 600px
@@ -137,6 +135,8 @@ body
     height: auto
   .header-include
     margin-bottom: 20px
+.event > h1:first-child
+  padding-top: 35px
 .post-header
   padding-top: 35px
 .post-list
@@ -155,7 +155,7 @@ body
 .image
   line-height: 0
   img
-    width: 100%
+    max-width: 100%
     height: auto
 @media only screen and (min-width: 940px)
   body
@@ -187,3 +187,6 @@ body
     padding: 40px 50px
     ul
       padding-left: 20px
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)
+  body, .site-header, .site-footer
+    background-size: 50px 50px
