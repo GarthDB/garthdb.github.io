@@ -71,7 +71,7 @@ body
       display: inline-block
       margin-top: 2px
     h1
-      font-size: 1.2rem
+      font-size: 1.8rem
       color: $background-color
       font-weight: 600
       text-transform: none
@@ -145,7 +145,11 @@ body
     padding-left: 0
   li
     list-style: none
-    margin-bottom: .5rem
+    font-size: 1rem
+    margin-bottom: 0
+    box-sizing: border-box
+    height: 48px
+    padding: 0.5rem 0
 .about-link
   text-align: center
   padding: 20px 20px 0
@@ -159,7 +163,7 @@ body
     height: auto
 .post-content
   padding-bottom: 30px
-@media only screen and (min-width: 940px)
+@media only screen and (min-width: 900px)
   body
     padding: 0 0 0 300px
     display: block
@@ -178,8 +182,11 @@ body
     bottom: 0
     -moz-box-sizing: border-box
     box-sizing: border-box
-    .post-list li a
-      width: 100%
+    .post-list
+      h1
+        font-size: 1.2rem
+      li a
+        width: 100%
   .post
     p, ul
       padding: 0 30px
@@ -187,6 +194,12 @@ body
       padding: 0 30px
   .post-list
     padding: 40px 50px
+    li
+      list-style: none
+      margin-bottom: 0.5rem
+      font-size: 1rem
+      padding: 0
+      height: auto
     ul
       padding-left: 20px
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)
