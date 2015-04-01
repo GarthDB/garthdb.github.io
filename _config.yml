@@ -2,8 +2,10 @@
 title: GarthDB
 email: garthdb@gmail.com
 description: "Ramblings of Garth Braithwaite."
+twitter:
+  image: "http://garthdb.com/img/twitter_card.png"
 baseurl: ""
-url: "http://garthdb.github.io/"
+url: "http://garthdb.com"
 sass:
   sass_dir: css
   style: compressed
