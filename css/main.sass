@@ -113,22 +113,34 @@ body
 .post, .event
   p, ul
     max-width: 600px
-    padding: 0 30px
     box-sizing: border-box
     margin-bottom: 1rem
     font-size: 1.1rem
-    line-height: 1.7rem
+    line-height: 2rem
     color: $content-text
+  p
+    padding: 0 30px
   h1, h2, h3, h4, h5, h6
     max-width: 600px
     padding: 0 30px
     box-sizing: border-box
   ul
-    list-style: disc inside none
-    padding-left: 4rem
+    list-style: disc outside none
+    padding: 0  30px 0 4rem
     margin-bottom: 1rem
   h1, h2, h3, h4, h5, h6
     color: $primary-accent
+  hr
+    height: 1px
+    color: $secondary-accent
+    background: $secondary-accent
+    font-size: 0
+    border: 0
+    max-width: 600px
+    box-sizing: border-box
+    padding: 0 30px
+    position: relative
+    margin: 50px auto
   .header-image
     margin-bottom: 20px
     width: 100%
@@ -187,11 +199,6 @@ body
         font-size: 1.2rem
       li a
         width: 100%
-  .post
-    p, ul
-      padding: 0 30px
-    h1, h2, h3, h4, h5, h6
-      padding: 0 30px
   .post-list
     padding: 40px 50px
     li
