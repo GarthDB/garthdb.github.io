@@ -1,6 +1,6 @@
 ---
 layout: header-image-post
-title:  "What's Wrong with Sass"
+title:  "What's Wrong with Sass [Draft]"
 date:   2015-07-17 10:21:23
 headerimg: /img/not_only_sass.svg
 ---
@@ -24,7 +24,7 @@ Imagine you work at a Sass shop and you're helping interview a new Front End Dev
 
 A friend of mine had this experience and the interviewer seemed a bit stunned. They asked why he wasn't just using Sass, it's so much better.
 
-Honestly, they are not that different. Sass took a ton from Less. The majority of the useful functionality is exactly the same. The syntax might be different, but we shouldn't be making tech decisions based on syntax alone. On the pro list for Less, it was born and raised in Javascript, the language Front End Developers eat for breakfast. Sass is playing catchup there.
+Honestly, they are not that different. Most likely Sass and Less inspired eachother. The majority of the useful functionality is exactly the same. The syntax might be different, but we shouldn't be making tech decisions based on syntax alone. On the pro list for Less, it was born and raised in Javascript, the language Front End Developers eat for breakfast.
 
 I'm using Less here as an example, but it could easily be [Stylus](https://learnboost.github.io/stylus/), [Rework](https://github.com/reworkcss/rework), [Myth](http://www.myth.io/), [PostCSS](https://github.com/postcss/postcss), etc.
 
