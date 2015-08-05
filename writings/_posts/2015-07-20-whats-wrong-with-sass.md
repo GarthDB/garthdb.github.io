@@ -4,7 +4,10 @@ title:  "What's Wrong with Sass [Draft]"
 date:   2015-07-17 10:21:23
 headerimg: /img/not_only_sass.svg
 ---
-**Note:** I half jokingly told some friends I was thinking of submitting a session to [SassConf](http://sassconf.com/) called "What's Wrong with Sass" and they encouraged me to submit, saying the conference would love it; turns out they didn't. The session was not accepted. I was told it was because they had so many session submissions, and to be fair, it's a pretty trolly session for that conference. So instead, I'm writing my thoughts down, because I still think they are valid. Going through and reading this stuff, it's probably good I didn't speak.
+**Note:** This was originally a session idea I submitted to 
+
+
+I half jokingly told some friends I was thinking of submitting a session to [SassConf](http://sassconf.com/) called "What's Wrong with Sass" and they encouraged me to submit, saying the conference would love it; turns out they didn't. The session was not accepted. I was told it was because they had so many session submissions, and to be fair, it's a pretty trolly session for that conference. So instead, I'm writing my thoughts down, because I still think they are valid. Going through and reading this stuff, it's probably good I didn't speak.
 
 ---
 
