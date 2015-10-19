@@ -1,7 +1,7 @@
 ---
 layout: header-image-post
 title:  "What's Wrong with Sass"
-date:   2015-07-17 10:21:23
+date:   2015-10-19 10:21:23
 headerimg: /img/not_only_sass.svg
 ---
 
