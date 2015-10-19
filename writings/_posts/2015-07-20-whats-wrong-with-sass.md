@@ -1,30 +1,33 @@
 ---
 layout: header-image-post
-title:  "What's Wrong with Sass [Draft]"
+title:  "What's Wrong with Sass"
 date:   2015-07-17 10:21:23
 headerimg: /img/not_only_sass.svg
----
-**Note:** I half jokingly told some friends I was thinking of submitting a session to [SassConf](http://sassconf.com/) called "What's Wrong with Sass" and they encouraged me to submit, saying the conference would love it; turns out they didn't. The session was not accepted. I was told it was because they had so many session submissions, and to be fair, it's a pretty trolly session for that conference. So instead, I'm writing my thoughts down, because I still think they are valid. Going through and reading this stuff, it's probably good I didn't speak.
-
 ---
 
 At ConvergeSE 2015, I went to [Bermon Painter](https://twitter.com/bermonpainter)'s session, Modular Front-End Development with Sass. I had already seen a Modular CSS with Sass session from [Mina Markham](https://twitter.com/minamarkham) the day before, but I don't miss Bermon's sessions if I can help it. It was a good session; the key for me was this slide:
 
 <div class="image"><a href="https://instagram.com/p/1lryMIBrwI/?taken-by=garthdb"><img src="/img/dogmatic.jpg" alt="Don't Be Dogmatic" style="width:100%;"/></a></div>
 
+Though I didn't go to his session back in 2013, Chris Eppstein also had some great advice that turns out to be along the same lines.
+
+<div class="image"><a href="https://farm4.staticflickr.com/3805/10314245786_b91451c11e_o.jpg"><img src="https://farm4.staticflickr.com/3805/10314245786_b91451c11e_o_d.jpg" alt="Don't be a Sasshole" style="width:100%;"/></a></div>
+
 ## The Sass Dogma
 
-This is real the problem with [Sass](http://sass-lang.com/). It's not the community, it's not the syntax, it's not even the tech/language, though it has it's flaws too. The problem with Sass is the way we have adopted it and the attitude we have toward other solutions.
+This is real the problem I have with [Sass](http://sass-lang.com/). It's not the community, it's not the syntax, it's not even the tech/language, though I think it has it's flaws too. The problem with Sass is the way we have adopted it and the attitude we have toward other solutions.
 
 Before I dig into Sass too hard I should mention that I love it. I love using it (I'm using it on this [site](https://github.com/GarthDB/garthdb.github.io/tree/master/css)), I love working with people who love it, I love what it has done for preprocessor awareness and adoption, and I love the way it has pushed the limits of css. But, we tend to have a dogmatic attachment to it.
 
-### "But I'm not dogmatic."<br/>You probably are.
+### "But I'm not dogmatic."
 
-Imagine you work at a Sass shop and you're helping interview a new Front End Developer. Obviously you ask him/her about their experience with the tech you are currently using, so when you ask, "How experienced are you with Sass?" and they respond, "I've played with it, but I mainly use [Less](http://lesscss.org/)." What's your reaction?
+You probably are.
 
-A friend of mine had this experience and the interviewer seemed a bit stunned. They asked why he wasn't just using Sass, it's so much better.
+Why did [Bootstrap](http://getbootstrap.com/) invest energy and time into converting it's code base from [Less](http://lesscss.org/) to [Sass](http://v4-alpha.getbootstrap.com/)? Probably because more people use Sass and more people means more potential contributors. It's also an easier sell for teams already using Sass, but it's also probably because people make fun of Less.
 
-Honestly, they are not that different. Most likely Sass and Less inspired eachother. The majority of the useful functionality is exactly the same. The syntax might be different, but we shouldn't be making tech decisions based on syntax alone. On the pro list for Less, it was born and raised in Javascript, the language Front End Developers eat for breakfast.
+Why do we make snide remarks about Less/Stylus/etc, and cheer about Sass. Because we're dicks, especially towards things that aren't part of our identity. If you identify as a Sass developer, you're less likely to have anything nice to say about any other CSS preprocessor.
+
+Honestly, they are not that different. Most likely Sass and Less inspired each other. The majority of the useful functionality is exactly the same. The syntax might be different, but we shouldn't be making tech decisions based on syntax alone. On the pro list for Less, it is a Javascript based tool, the language Front End Developers eat for breakfast.
 
 I'm using Less here as an example, but it could easily be [Stylus](https://learnboost.github.io/stylus/), [Rework](https://github.com/reworkcss/rework), [Myth](http://www.myth.io/), [PostCSS](https://github.com/postcss/postcss), etc.
 
@@ -34,7 +37,7 @@ The answer to that question is going to be pretty unique to everyone's individua
 
 ## The Problem with Sass's Tech
 
-[Ruby](https://www.ruby-lang.org/en/). Ruby is the problem. If you're using Ruby and/or Rails for your project, then Sass is your preprocessor. If you're not then you have a huge problem but developers are nothing if not problem solvers.
+[Ruby](https://www.ruby-lang.org/en/). Ruby is the problem. If you're using Ruby with/without Rails for your project, then Sass is your preprocessor. If you're not then you have a huge problem but developers are nothing if not problem solvers.
 
 And we have solved that problem. If you want to use Sass in your non Ruby project, you have a couple options: you can force Ruby into your project, you can use a port, or you can use some implementation of [LibSass](http://libsass.org/).
 
@@ -56,9 +59,11 @@ The power in the plethora of these Front End Developer tools is that they are op
 
 Maybe you're thinking, "yeah, but I don't plan on ever contributing code to the tools I use" and maybe you're a selfish jerk.
 
+**Note**: I've had some interesting conversations with [Chris Eppstein](http://twitter.com/chriseppstein) and other Sass developers who have assured me that the Sass team has a high level of commitment to feature parity between Ruby Sass and LibSass which makes it the best kind of port.
+
 ## What's the Solution?
 
-So what should you use? Anything else. I'm not saying that it's time to burn Sass to the ground. I really think we need it. I just also think we need to be using other preprocessors as well, or at least playing with them. Don't go abandoning Sass on your day job projects, but next time you start a side project, or a prototype, go look at other options. It is good to try new things.
+So what should you use? Anything else. I'm not saying that it's time to burn Sass to the ground. I really think we need it but I think we also need to be using other preprocessors as well, or at least playing with them. Don't go abandoning Sass on your day job projects, but next time you start a side project, or a prototype, go look at other options. It is good to try new things.
 
 Here are some thoughts to consider:
 
