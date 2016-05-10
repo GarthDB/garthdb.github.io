@@ -1,9 +1,19 @@
 # Site settings
 title: GarthDB
 email: garthdb@gmail.com
+logo: /img/logo.svg
+author:
+  name: Garth Braithwaite
+  uri: http://garthdb.com
+  twitter: garthdb
 description: "Ramblings of Garth Braithwaite."
+image:
+  twitter: "http://garthdb.com/img/twitter_card.png"
 twitter:
-  image: "http://garthdb.com/img/twitter_card.png"
+  username: garthdb
+gems:
+  - jekyll-seo-tag
+  - jekyll-feed
 baseurl: ""
 url: "http://garthdb.com"
 sass:
@@ -13,5 +23,3 @@ sass:
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title/
-
-highlighter: pygments
