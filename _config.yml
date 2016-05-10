@@ -7,8 +7,6 @@ author:
   uri: http://garthdb.com
   twitter: garthdb
 description: "Ramblings of Garth Braithwaite."
-image:
-  twitter: "http://garthdb.com/img/twitter_card.png"
 twitter:
   username: garthdb
 gems:
@@ -23,3 +21,11 @@ sass:
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title/
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image:
+        twitter: /img/twitter_card.png

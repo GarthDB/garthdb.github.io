@@ -1,3 +1,8 @@
+{% assign pagetitle = site.title %}
+{% if page.title %}
+  {% assign pagetitle = page.title %}
+{% endif %}
+
 {% assign pagedescription = site.description %}
 {% if page.description %}
   {% assign pagedescription = page.description %}
@@ -13,14 +18,16 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  {% seo %}
+  <title>{{ pagetitle }}</title>
   <meta name="viewport" content="width=device-width">
-  <!-- <meta name="twitter:card" content="summary">
+  <meta name="description" content="{{ site.description }}">
+
+  <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@garthdb">
   <meta name="twitter:title" content="{{ pagetitle }}">
   <meta name="twitter:description" content="{{ pagedescription }}">
   <meta name="twitter:image:src" content="{{ twitterImage }}">
-  <meta name="twitter:url" content="{{ pageurl }}" /> -->
+  <meta name="twitter:url" content="{{ pageurl }}" />
 
   <link rel="canonical" href="{{ pageurl }}">
   <link rel="shortcut icon" href="/favicon.ico">
