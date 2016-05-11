@@ -218,7 +218,6 @@ task :html_proofer do
   }).run
 end
 
-
 # rake scss_lint
 desc "Lint SCSS"
 SCSSLint::RakeTask.new do |t|
