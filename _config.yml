@@ -12,6 +12,13 @@ twitter:
 gems:
   - jekyll-seo-tag
   - jekyll-feed
+exclude:
+  - vendor
+  - Gemfile
+  - Rakefile
+  - README.md
+  - LICENSE
+  - CNAME
 baseurl: ""
 url: "http://garthdb.com"
 sass:

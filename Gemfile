@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
 gem 'github-pages'
-gem 'jekyll-seo-tag'
-gem 'jekyll-feed'
 
 # Test the build
-gem 'html-proofer'
+group :test, :development do
+  gem 'rake'
+  gem 'html-proofer'
+  gem 'scss_lint'
+  gem 'mdl', '0.3.0'
+end
