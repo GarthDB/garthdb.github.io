@@ -1,32 +1,25 @@
-pre
+.highlighter-rouge
   font-family: 'source_code' monospace
-  padding: 30px 30px 30px 0
   font-size: 1.1rem
   line-height: 1.6rem
-  position: relative
-  margin: 20px 0
-  overflow: scroll
-  .lineno
-    width: 70px
-    box-sizing: border-box
-    padding-left: 30px
-    position: relative
-    z-index: 2
-    display: inline-block
-  &:before
-    content: ''
-    background-color: rgba(0,0,0,0.2)
-    width: 70px
-    height: 100%
-    left: 0
-    top: 0
-    position: absolute
-    display: block
-    z-index: 1
-code, pre
   color: #fdce93
   background-color: $primary-accent
-  font-family: 'source_sans' monospace
+  table
+    width: 100%
+    padding: 30px 30px 30px 0
+    margin: 20px 0
+td.code pre
+  overflow: scroll
+  width: 100%
+  padding-left: 10px
+td.gutter
+  width: 70px
+pre.lineno
+  background-color: #2f3132
+  padding-right: 10px
+code.highlighter-rouge
+  padding: 2px 5px
+  border-radius: 2px
 .hll
   background-color: #222
 .c
