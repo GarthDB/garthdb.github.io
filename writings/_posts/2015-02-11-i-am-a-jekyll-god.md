@@ -25,7 +25,7 @@ Design Open is an open source blog; it is designed to allow community members to
 
 ## Minify and Inline the Styles
 
-Jekyll and GitHub Pages now support [Sass](http://sass-lang.com/) and [CoffeeScript](http://coffeescript.com/) by default, so you can take full advantage of the file size optimization available with Sass.
+Jekyll and GitHub Pages now support [Sass](http://sass-lang.com/) and [CoffeeScript](http://coffeescript.org/) by default, so you can take full advantage of the file size optimization available with Sass.
 
 In your `_config.yml` you can configure Sass to output compressed css; checkout the `style: compressed` line of our configuration file:
 
@@ -63,7 +63,7 @@ It’s really just an empty shell of a file that spends it’s life trying to ge
 
 Now we can take our stylesheets to the next level by embedding them in the `<head>`. The decision to embed styles in the html is based on the size of the CSS file. With smallish CSS files, inlining can improve page speed by removing the additional server requests. Google has a great explanation of the benefits of inlining on their [developer docs](https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery).
 
-I learned about using Jekyll to embed the css from [Kevin Sweet’s blog](http://www.kevinsweet.com/inline-scss-jekyll-github-pages/). It requires you move your main sass (or scss) file to the `_includes` directory and then include it while passing it through the new `sassify` or `scssify` filter. Here’s the example from Kevin’s blog:
+I learned about using Jekyll to embed the css from [Kevin Sweet’s blog](http://www.kevinsweet.com/inline-scss-jekyll-github-pages). It requires you move your main sass (or scss) file to the `_includes` directory and then include it while passing it through the new `sassify` or `scssify` filter. Here’s the example from Kevin’s blog:
 
 ```html
 <head>
