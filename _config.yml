@@ -26,7 +26,6 @@ sass:
   style: compressed
 
 # Build settings
-markdown: kramdown
 permalink: /:categories/:title/
 
 defaults:
@@ -36,3 +35,16 @@ defaults:
     values:
       image:
         twitter: /img/twitter_card.png
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
