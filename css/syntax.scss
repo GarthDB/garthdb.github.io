@@ -3,18 +3,30 @@
   font-size: 1.1rem;
   line-height: 1.6rem;
   color: #fdce93;
-  overflow: scroll;
   table {
-    width: 100%;
     margin: 20px 0;
     background-color: $primary-accent;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  tbody {
+    width: 100%;
+  }
+  tr {
+    width: 100%;
+    display: flex;
   }
 }
 
+
 td.code {
+  overflow: scroll;
   pre {
+    overflow: auto;
+    box-sizing: border-box;
     padding: 30px 30px 30px 10px;
-    overflow: scroll;
   }
 }
 

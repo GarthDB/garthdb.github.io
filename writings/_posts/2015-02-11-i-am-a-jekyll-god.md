@@ -124,7 +124,7 @@ task :test do
 end
 ```
 
-I’m not going to do a deep dive into Rake here, but the important parts are on lines `5` and `6`. First it builds the Jekyll site, then it uses the [HTML Proofer](https://github.com/gjtorikian/html-proofer)gem to check that all the URLs in the `_site` directory are active. I wanted to see where errors occured, so I set `vebose` to `true` and we also use a local url in one our articles, so I added the `:href_ignore` to avoid the known error. Checkout the gem’s [`README.md`](https://github.com/gjtorikian/html-proofer/blob/master/README.md) for the full documentation on the options
+I’m not going to do a deep dive into Rake here, but the important parts are on lines `5` and `6`. First it builds the Jekyll site, then it uses the [HTML Proofer](https://github.com/gjtorikian/html-proofer) gem to check that all the URLs in the `_site` directory are active. I wanted to see where errors occured, so I set `vebose` to `true` and we also use a local url in one our articles, so I added the `:href_ignore` to avoid the known error. Checkout the gem’s [`README.md`](https://github.com/gjtorikian/html-proofer/blob/master/README.md) for the full documentation on the options
 
 The final step is to add the necessary gems to your Gemfile.
 
