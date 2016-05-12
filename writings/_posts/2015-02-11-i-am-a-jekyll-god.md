@@ -7,15 +7,7 @@ articleclass: left
 ---
 We’ve used [Jekyll](http://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/) to host [DesignOpen.org](http://designopen.org/) since we published the first line of code and although we love our setup, we haven’t taken full advantage of the system; until last week’s [pull request](https://github.com/DesignOpen/designopen.github.io/pull/157). After making said pull request, and being drunk on the power of a [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=designopen.org) score of 96, I made this hasty declaration to [Una](http://www.twitter.com/una) on our team Slack:
 
-> `[11:25 PM]`
-> I got travis hooked up on the site
-> `[11:25 PM]`
-> and minified everything
-> `[11:25 PM]`
-> **I AM A JEKYLL GOD!**
-> `[11:26 PM]`
-> I get full of myself when I stay up late
-> I need to go to bed.
+> `[11:25 PM]`<br>I got travis hooked up on the site<br>`[11:25 PM]`<br>and minified everything<br>`[11:25 PM]`<br>**I AM A JEKYLL GOD!**<br>`[11:26 PM]`<br>I get full of myself when I stay up late<br>I need to go to bed.<br>
 
 Although it’s a bit of a stretch to declare myself a Jekyll God, you too can become one, following these simple steps that other people have published and that I have taken advantaging of by compiling them in this article.
 
