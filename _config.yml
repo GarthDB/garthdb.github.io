@@ -27,6 +27,7 @@ sass:
 
 # Build settings
 permalink: /:categories/:title/
+future: true
 
 defaults:
   -
