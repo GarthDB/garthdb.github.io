@@ -3,32 +3,35 @@
   font-size: 1.1rem;
   line-height: 1.6rem;
   color: #fdce93;
-  background-color: $primary-accent;
+  overflow: scroll;
   table {
     width: 100%;
-    padding: 30px 30px 30px 0;
     margin: 20px 0;
+    background-color: $primary-accent;
   }
 }
 
-td.code pre {
-  overflow: scroll;
-  width: 100%;
-  padding-left: 10px;
+td.code {
+  pre {
+    padding: 30px 30px 30px 10px;
+    overflow: scroll;
+  }
 }
 
 td.gutter {
   width: 70px;
+  min-width: 70px;
 }
 
 pre.lineno {
   background-color: #2f3132;
-  padding-right: 10px;
+  padding: 30px 10px 30px 0;
 }
 
 code.highlighter-rouge {
   padding: 2px 5px;
   border-radius: 2px;
+  background-color: $primary-accent;
 }
 
 .hll {
