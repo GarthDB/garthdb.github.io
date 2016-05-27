@@ -11,7 +11,7 @@ The talk is only 13 min long and the video is included below.
 
 ## Video
 
-<div class="videoWrapper"><iframe width="560" height="315" src="//www.youtube.com/embed/LEwmngFyBb4" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-wrapper"><iframe width="560" height="315" src="//www.youtube.com/embed/LEwmngFyBb4" frameborder="0" allowfullscreen></iframe></div>
 
 ## Photos
 

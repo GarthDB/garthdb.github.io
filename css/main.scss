@@ -125,7 +125,7 @@ body {
   }
 }
 
-.videoWrapper {
+.video-wrapper {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 25px;
@@ -138,10 +138,16 @@ body {
     width: 100%;
     height: 100%;
   }
+  &:first-child {
+    margin-top: 0;
+  }
+  &:last-child {
+    margin-bottom: -30px;
+  }
 }
 
 .post {
-  p, ul, h1, h2, h3, h4, h5, h6 {
+  p, ul, h1, h2, h3, h4, h5, h6, .content-bounds {
     position: realtive;
     margin-left: auto;
     margin-right: auto;
@@ -155,7 +161,7 @@ body {
 }
 
 .post, .event {
-  p, ul {
+  p, ul, .content-bounds {
     max-width: 600px;
     box-sizing: border-box;
     margin-bottom: 1rem;
