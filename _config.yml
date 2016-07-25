@@ -33,7 +33,7 @@ exclude:
 - README.md
 - LICENSE
 - CNAME
-baseurl: ''
+baseurl: 
 url: http://garthdb.com
 sass:
   sass_dir: css
