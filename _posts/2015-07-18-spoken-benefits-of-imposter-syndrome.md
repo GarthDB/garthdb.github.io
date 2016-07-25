@@ -1,7 +1,9 @@
 ---
+title: The Benefits of the Imposter Syndrome [Spoken]
+date: 2015-07-18 00:00:00 Z
+categories:
+- stuff
 layout: post
-title:  "The Benefits of the Imposter Syndrome [Spoken]"
-date:   2015-07-18
 ---
 
 Maybe the imposter syndrome is not the evil thing we want it to be.

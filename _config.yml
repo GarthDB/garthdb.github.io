@@ -1,49 +1,52 @@
-# Site settings
+---
 title: GarthDB
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    image:
+      twitter: "/img/twitter_card.png"
 email: garthdb@gmail.com
-logo: /img/logo.svg
+logo: "/img/logo.svg"
 author:
   name: Garth Braithwaite
   uri: http://garthdb.com
   twitter: garthdb
-description: "Ramblings of Garth Braithwaite."
+description: Ramblings of Garth Braithwaite.
 twitter:
   username: garthdb
 gems:
-  - jekyll-seo-tag
-  - jekyll-feed
+- jekyll-seo-tag
+- jekyll-feed
 exclude:
-  - vendor
-  - Gemfile
-  - Rakefile
-  - README.md
-  - LICENSE
-  - CNAME
-baseurl: ""
-url: "http://garthdb.com"
+- vendor
+- Gemfile
+- Rakefile
+- README.md
+- LICENSE
+- CNAME
+baseurl: ''
+url: http://garthdb.com
 sass:
   sass_dir: css
   style: compressed
-
-# Build settings
-permalink: /:categories/:title/
+permalink: "/:categories/:title/"
 future: true
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      image:
-        twitter: /img/twitter_card.png
-
 markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
   syntax_highlighter_opts:
-    css_class: 'highlight'
+    css_class: highlight
     span:
       line_numbers: false
     block:

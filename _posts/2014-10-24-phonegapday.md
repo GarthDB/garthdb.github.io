@@ -1,8 +1,11 @@
 ---
+title: PhoneGap Day 2014
+date: 2014-10-24 00:00:00 Z
+categories:
+- talks
 layout: event
-title:  "PhoneGap Day 2014"
-date:   2014-10-24
 ---
+
 ## Session Description
 
 I gave a short talk at PhoneGap 2014 about working with design and talking care of design when a designer is not available.

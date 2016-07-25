@@ -1,7 +1,9 @@
 ---
+title: Creative Heroes and Friends [Spoken]
+date: 2015-07-09 00:00:00 Z
+categories:
+- stuff
 layout: post
-title:  "Creative Heroes and Friends [Spoken]"
-date:   2015-07-09
 ---
 
 My favorite way to fight the imposter syndrome is getting to know my creative heroes on a personal level.

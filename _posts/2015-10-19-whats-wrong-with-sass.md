@@ -1,8 +1,10 @@
 ---
+title: What's Wrong with Sass
+date: 2015-10-19 10:21:23 Z
+categories:
+- writings
 layout: header-image-post
-title:  "What's Wrong with Sass"
-date:   2015-10-19 10:21:23
-headerimg: /img/not_only_sass.svg
+headerimg: "/img/not_only_sass.svg"
 ---
 
 At ConvergeSE 2015, I went to [Bermon Painter](https://twitter.com/bermonpainter)'s session, Modular Front-End Development with Sass. I had already seen a Modular CSS with Sass session from [Mina Markham](https://twitter.com/minamarkham) the day before, but I don't miss Bermon's sessions if I can help it. It was a good session; the key for me was this slide:

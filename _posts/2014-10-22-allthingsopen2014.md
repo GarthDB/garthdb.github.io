@@ -1,9 +1,12 @@
 ---
+title: All Things Open
+date: 2014-10-22 00:00:00 Z
+categories:
+- talks
 layout: event
-title:  "All Things Open"
-date:   2014-10-22
-headerimg: /img/allthingsopen.svg
+headerimg: "/img/allthingsopen.svg"
 ---
+
 ## Session Description
 
 Design is a key part of any project. When used correctly it can communicate the product goals, it can entice new contributors, and it can make the product itself more effective.Garth Braithwaite has been the visual and experience design lead on a few projects including Brackets. He will discuss how to successfully solicit design contributions, and how to manage them.
