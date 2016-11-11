@@ -4,7 +4,7 @@ permalink: "/about/"
 layout: page
 ---
 
-I'm Garth Braithwaite and I create stuff for the internet.
+I'm Garth Braithwaite and I create stuff for the internet at Adobe.
 
 Here are some useless and gratuitous headshots.
 
