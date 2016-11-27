@@ -152,6 +152,6 @@ Despite our jekyllian apotheosis, we are not quite omnipotent. We are close to a
 
 ## A Final Warning
 
-Although your new found power is real, and potentially useful, it’s not exactly super. Don’t let its intoxicating influence blind you to social contexts; these optimizations are not interesting enough to mention at dinner parties, and you should probably avoid referring to yourself as a god in any context.
+Although your newfound power is real, and potentially useful, it’s not exactly super. Don’t let its intoxicating influence blind you to social contexts; these optimizations are not interesting enough to mention at dinner parties, and you should probably avoid referring to yourself as a god in any context.
 
 So use your knowledge wisely, and if you come across any other optimizations, feel free to let me know, and I’ll be sure to capitalize on your kindness by putting them in this article.
