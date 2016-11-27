@@ -12,7 +12,7 @@ We’ve used [Jekyll](http://jekyllrb.com/) and [GitHub Pages](https://pages.
 
 > `[11:25 PM]`<br>I got travis hooked up on the site<br>`[11:25 PM]`<br>and minified everything<br>`[11:25 PM]`<br>**I AM A JEKYLL GOD!**<br>`[11:26 PM]`<br>I get full of myself when I stay up late<br>I need to go to bed.<br>
 
-Although it’s a bit of a stretch to declare myself a Jekyll God, you too can become one, following these simple steps that other people have published and that I have taken advantaging of by compiling them in this article.
+Although it’s a bit of a stretch to declare myself a Jekyll God, you too can become one, following these simple steps that other people have published and that I have taken advantage of by compiling them in this article.
 
 ## Open Blog Requirements
 
