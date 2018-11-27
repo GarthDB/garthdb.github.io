@@ -23,7 +23,7 @@ author:
 description: Ramblings of Garth Braithwaite.
 twitter:
   username: garthdb
-gems:
+plugins:
 - jekyll-seo-tag
 - jekyll-feed
 exclude:
@@ -33,7 +33,7 @@ exclude:
 - README.md
 - LICENSE
 - CNAME
-baseurl: 
+baseurl:
 url: http://garthdb.com
 sass:
   sass_dir: css

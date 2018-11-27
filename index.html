@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% if site.categories.writings | size != 0 %}
+{% if site.categories.writings.size != 0 %}
 <section class="post-list">
   <h1>Writings</h1>
   <ul>
@@ -12,7 +12,7 @@ layout: default
   </ul>
 </section>
 {% endif %}
-{% if site.categories.talks | size != 0 %}
+{% if site.categories.talks.size != 0 %}
 <section class="post-list">
   <h1>Talks</h1>
   <ul>
@@ -22,7 +22,7 @@ layout: default
   </ul>
 </section>
 {% endif %}
-{% if site.categories.projects | size != 0 %}
+{% if site.categories.projects.size != 0 %}
 <section class="post-list">
   <h1>Projects</h1>
   <ul>
@@ -32,7 +32,7 @@ layout: default
   </ul>
 </section>
 {% endif %}
-{% if site.categories.stuff | size != 0 %}
+{% if site.categories.stuff.size != 0 %}
 <section class="post-list">
   <h1>Stuff</h1>
   <ul>
