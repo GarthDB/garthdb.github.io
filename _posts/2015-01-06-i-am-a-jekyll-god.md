@@ -75,7 +75,7 @@ A quick note, since your `main.scss` file is now in the `_includes` director
 
 ## Minify the HTML
 
-Unlike Sass, Jekyll does not, by default, have an option for minifying the generated HTML. Originally I had assumed we would be stuck with fat HTML, since we were avoiding anything outside of the default Jekyll setup, but I found a solution from [Anatol Broder](http://penibelst.de/) that solves the problem wonderfully.
+Unlike Sass, Jekyll does not, by default, have an option for minifying the generated HTML. Originally I had assumed we would be stuck with fat HTML, since we were avoiding anything outside of the default Jekyll setup, but I found a solution from [Anatol Broder](https://bro.doktorbro.net/) that solves the problem wonderfully.
 
 Anatol created a Jekyll layout that removes unnecessary whitespace from the content. To use it in your site, just download the [`compress.html`](https://github.com/penibelst/jekyll-compress-html/releases/tag/v1.1.1) layout and put it in your `_layouts` directory. Then set any root level layout or html file to be based on `compress`. For example, our `default.html` layout includes this front matter:
 
