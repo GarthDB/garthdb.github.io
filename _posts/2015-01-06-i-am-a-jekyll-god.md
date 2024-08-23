@@ -2,7 +2,7 @@
 title: I am a Jekyll God
 date: 2015-01-06 10:21:23 Z
 categories:
-- writings
+  - writings
 layout: header-image-post
 headerimg: "/img/jekyll_god.jpg"
 articleclass: left
@@ -98,11 +98,11 @@ Before you can automate the test, you need to turn on Travis CI for your repo in
 ```yaml
 language: ruby
 rvm:
-- 2.1
+  - 2.1
 script: bundle exec rake test
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 ```
 
 Most of this example is self explanitory; the `script` property is the command that is run, and the `env` is something that the Jekyll documentation says will speed up the gem installation process of the test. I have no idea if that’s true; I’m just taking it on blind faith.

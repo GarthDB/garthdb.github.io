@@ -2,7 +2,7 @@
 title: UX South Africa
 date: 2015-05-14 00:00:00 Z
 categories:
-- talks
+  - talks
 layout: post
 eventdate: May 14-15, 2015
 location: Johannesburg, SA

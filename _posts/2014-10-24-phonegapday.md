@@ -2,7 +2,7 @@
 title: PhoneGap Day 2014
 date: 2014-10-24 00:00:00 Z
 categories:
-- talks
+  - talks
 layout: event
 ---
 

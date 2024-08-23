@@ -2,7 +2,7 @@
 title: Web Creator is Enough
 date: 2014-03-04 10:21:23 Z
 categories:
-- writings
+  - writings
 layout: header-image-post
 headerinclude: web_creator.html
 ---
@@ -11,12 +11,12 @@ How do we, as web designers and developers, see ourselves?
 
 Spend some time looking through our Twitter bios. Look at self-promoting, creative-professional websites (i.e agencies, freelancers, portfolios, etc). You can’t swing a dead pixel without hitting some giant header with an introduction that sounds nothing like web development or design.
 
-* Hi I’m Garth and I’m a Storyteller
-* Hello, we are Fake Agency and we make digital experiences
-* Hola, I handcraft beautiful websites
-* I like making great ideas happen
-* We grow brands
-* I’m a problem solver
+- Hi I’m Garth and I’m a Storyteller
+- Hello, we are Fake Agency and we make digital experiences
+- Hola, I handcraft beautiful websites
+- I like making great ideas happen
+- We grow brands
+- I’m a problem solver
 
 These fall into two categories: too obvious and overreaching.
 

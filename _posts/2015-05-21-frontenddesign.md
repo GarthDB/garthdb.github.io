@@ -2,7 +2,7 @@
 title: Frontend Design Conf
 date: 2015-05-21 00:00:00 Z
 categories:
-- talks
+  - talks
 layout: post
 eventdate: May 21-22, 2015
 location: St Pete, FL
