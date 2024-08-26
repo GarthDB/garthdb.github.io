@@ -2,7 +2,7 @@
 title: All Things Open
 date: 2014-10-22 00:00:00 Z
 categories:
-- talks
+  - talks
 layout: event
 headerimg: "/img/allthingsopen.svg"
 ---

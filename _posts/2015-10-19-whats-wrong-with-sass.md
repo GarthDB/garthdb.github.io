@@ -2,7 +2,7 @@
 title: What's Wrong with Sass
 date: 2015-10-19 10:21:23 Z
 categories:
-- writings
+  - writings
 layout: header-image-post
 headerimg: "/img/not_only_sass.svg"
 ---
@@ -69,10 +69,10 @@ So what should you use? Anything else. I'm not saying that it's time to burn Sas
 
 Here are some thoughts to consider:
 
-* Less still has that client side library, so you don't have to compile it to CSS while writing code locally. It's super weird and arguably useless, but still interesting.
-* Stylus is stupid terse and forgiving. Throw CSS in there and it works. Forget semicolons or even colons and braces, it still works. Technically speaking it should use the least number of characters to write so it could be the fastest syntax to type.
-* Rework and PostCSS use plugins to let you pick and choose the functionality you want, or even write new features without forking the codebase. Also, they are [super fast](http://ai.github.io/about-postcss/en/#42), and there are a bunch of things they can do that are impossible with Sass, like [Autoprefixer](https://github.com/postcss/autoprefixer), which blows [Compass](http://compass-style.org/) out of the water.
-* The CSS spec is progressing to add a lot of the features we use preprocessors to achieve. One day we may not need any preprocessor, but until then you can [cssnext](http://cssnext.io/) as a polyfill. Future CSS, today!
-* Write some vanilla CSS once in a while, it's good for you.
+- Less still has that client side library, so you don't have to compile it to CSS while writing code locally. It's super weird and arguably useless, but still interesting.
+- Stylus is stupid terse and forgiving. Throw CSS in there and it works. Forget semicolons or even colons and braces, it still works. Technically speaking it should use the least number of characters to write so it could be the fastest syntax to type.
+- Rework and PostCSS use plugins to let you pick and choose the functionality you want, or even write new features without forking the codebase. Also, they are [super fast](http://ai.github.io/about-postcss/en/#42), and there are a bunch of things they can do that are impossible with Sass, like [Autoprefixer](https://github.com/postcss/autoprefixer), which blows [Compass](http://compass-style.org/) out of the water.
+- The CSS spec is progressing to add a lot of the features we use preprocessors to achieve. One day we may not need any preprocessor, but until then you can [cssnext](http://cssnext.io/) as a polyfill. Future CSS, today!
+- Write some vanilla CSS once in a while, it's good for you.
 
 Reading this, you might assume I'm a PostCSS or even Stylus fanboy, and you'd be 100% correct, but I'm not so delusional as to think they will be my favorite tools in the future. My goal is to keep playing and to keep trying to push the limits of this workflows into interesting and useful directions.
