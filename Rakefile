@@ -202,12 +202,12 @@ desc "build and test website"
 task :html_proofer do
   sh "bundle exec jekyll build"
   HTMLProofer.check_directory("./_site", {
-    :empty_alt_ignore => true,
-    :url_ignore => [
+    :ignore_empty_alt => true,
+    :ignore_urls => [
       'http://localhost:4000'
     ],
     :cache => {
-      :timeframe => '1d'
+      :timeframe => { :external => '1d' }
     },
     :typhoeus => {
       :followlocation => true,
