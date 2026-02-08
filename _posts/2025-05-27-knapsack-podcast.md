@@ -1,5 +1,5 @@
 ---
-title: Knapsack Podcast: Design Tokens, Governance, and Scaling Spectrum
+title: "Knapsack Podcast: Design Tokens, Governance, and Scaling Spectrum"
 date: 2025-05-27 00:00:00 Z
 categories:
   - talks
