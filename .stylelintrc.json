@@ -9,7 +9,9 @@
     "font-family-no-missing-generic-family-keyword": null,
     "declaration-block-no-redundant-longhand-properties": null,
     "media-feature-range-notation": null,
-    "media-feature-name-no-vendor-prefix": null
+    "media-feature-name-no-vendor-prefix": null,
+    "color-function-notation": null,
+    "alpha-value-notation": null
   },
   "overrides": [
     {
