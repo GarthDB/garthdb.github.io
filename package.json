@@ -1,0 +1,11 @@
+{
+  "name": "garthdb.github.io",
+  "private": true,
+  "devDependencies": {
+    "stylelint": "^16.0.0",
+    "stylelint-config-standard-scss": "^13.0.0"
+  },
+  "scripts": {
+    "stylelint": "stylelint 'css/**/*.scss' '_includes/*.scss'"
+  }
+}

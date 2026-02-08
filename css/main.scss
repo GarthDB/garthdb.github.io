@@ -110,7 +110,7 @@ body {
     }
   }
   path {
-    fill: currentColor;
+    fill: currentcolor;
   }
 }
 
@@ -123,6 +123,15 @@ body {
     display: inline-block;
     margin: 0 6px;
   }
+}
+
+.profile-photo {
+  display: block;
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 auto 2rem;
 }
 
 .video-wrapper {
@@ -251,13 +260,14 @@ body {
 }
 
 @media only screen and (min-width: 900px) {
+  $sidebar-width: 340px;
   body {
-    padding: 0 0 0 300px;
+    padding: 0 0 0 $sidebar-width;
     display: block;
   }
   .site-header {
     position: fixed;
-    width: 300px;
+    width: $sidebar-width;
     top: 0;
     left: 0;
     bottom: 0;
@@ -266,11 +276,20 @@ body {
   .site-footer {
     background: transparent;
     position: fixed;
-    width: 300px;
+    width: $sidebar-width;
     left: 0;
     bottom: 0;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    .social-links {
+      li {
+        margin: 0 4px;
+      }
+      svg {
+        width: 28px;
+        height: 28px;
+      }
+    }
     .post-list {
       h1 {
         font-size: 1.2rem;
