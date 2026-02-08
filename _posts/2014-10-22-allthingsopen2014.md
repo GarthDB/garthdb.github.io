@@ -15,7 +15,7 @@ Although the design community is becoming more active in the open source communi
 
 ## Slides
 
-<div class="video-wrapper"><script async class="speakerdeck-embed" data-id="a3acf7803c510132b7d4027c1edc7060" data-ratio="1.29456384323641" src="//speakerdeck.com/assets/embed.js"></script></div>
+<div class="video-wrapper"><script async class="speakerdeck-embed" data-id="a3acf7803c510132b7d4027c1edc7060" data-ratio="1.29456384323641" src="https://speakerdeck.com/assets/embed.js"></script></div>
 
 ## Photos
 
