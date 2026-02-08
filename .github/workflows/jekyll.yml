@@ -3,6 +3,8 @@ name: Build and deploy Jekyll site
 on:
   push:
     branches: ["main"]
+  pull_request:
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -28,6 +30,7 @@ jobs:
           bundler-cache: true
 
       - name: Persist Gemfile.lock if missing
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
           if ! git ls-files --error-unmatch Gemfile.lock >/dev/null 2>&1; then
             git config user.name "github-actions[bot]"
@@ -62,9 +65,11 @@ jobs:
         run: bundle exec rake html_proofer
 
       - name: Upload artifact
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
 
   deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
