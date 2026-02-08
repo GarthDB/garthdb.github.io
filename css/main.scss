@@ -153,6 +153,15 @@ body {
   &:last-child {
     margin-bottom: -30px;
   }
+  &.podcast-player {
+    padding-bottom: 0;
+    padding-top: 0;
+    height: auto;
+    iframe {
+      position: static;
+      height: 200px;
+    }
+  }
 }
 
 .post {

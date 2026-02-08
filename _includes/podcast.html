@@ -1,0 +1,6 @@
+{% if include.width %}{% assign width = include.width %}{% else %}{% assign width = "100%" %}{% endif %}
+{% if include.height %}{% assign height = include.height %}{% else %}{% assign height = "200" %}{% endif %}
+<div class="video-wrapper podcast-embed">
+  <iframe title="Podcast player" width="{{ width }}" height="{{ height }}" src="{{ include.url }}" frameborder="0" allowfullscreen></iframe>
+  <p class="podcast-fallback"><a href="{{ include.url }}">Listen on Knapsack</a></p>
+</div>
