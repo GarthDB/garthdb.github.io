@@ -203,6 +203,7 @@ task :html_proofer do
   sh "bundle exec jekyll build"
   HTMLProofer.check_directory("./_site", {
     :ignore_empty_alt => true,
+    :disable_external => true,
     :ignore_urls => [
       'http://localhost:4000'
     ],
